@@ -1,0 +1,167 @@
+{
+  "facebookAccount": {
+    "email": "cedoelvalentino14@gmail.com",
+    "password": "ced1402",
+    "2FASecret": "",
+    "i_user": "",
+    "proxy": null,
+    "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
+    "intervalGetNewCookie": 1440,
+    "notes": "Time the system automatically retrieves new cookies from email/password. Unit is in minutes. Set to null to avoid automatic retrieval. Recommended settings: 1440 (1 day) or 4320 (3 days)."
+  },
+  "antiInbox": false,
+  "language": "en",
+  "notesLanguage": "Set language with ISO 639-1 code. Available: vi (Vietnamese), en (English).",
+  "adminOnly": {
+    "enable": false,
+    "ignoreCommand": []
+  },
+  "adminBot": [
+    "100085096696396",
+    "",
+    ""
+  ],
+  "GOD": [
+    "100085096696396",
+    "",
+    ""
+  ],
+  "vipUser": [
+    "100085096696396",
+    "",
+    ""
+  ],
+  "DEV": [
+    "100085096696396",
+    "",
+    ""
+  ],
+  "whiteListMode": {
+    "enable": true,
+    "whiteListIds": [
+     "100085096696396",
+     "",
+    ""
+    ],
+    "notes": "If enabled, only the IDs in whiteListIds can use the bot."
+  },
+  "nickNameBot": "ᎠᎯᎬᎷᎾᏁ-ᏰᎾ",
+  "prefix": "@",
+  "database": {
+    "type": "mongodb",
+    "uriMongodb": "mongodb+srv://kumarorithi:IDOLL-ANTHONY-URI-12@cluster0.hwu7q.mongodb.net/",
+    "autoSyncWhenStart": false,
+    "autoRefreshThreadInfoFirstTime": true,
+    "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
+  },
+  "timeZone": "Asia/Tokyo",
+  "credentials": {
+    "gmailAccount": {
+      "email": "aryanchauhan78577@gmail.com",
+      "clientId": "695328982889-v1t85ej9aq1fvv0n4alp7rcbea9gkgvf.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04EyH1gbNUVv5CgYIARAAGAQSNwF-L9IrqcPCQD2QsuhCQ2XprHCTMrTnVPI6WvT9i73nnoi4XqfAD0_yDoGW_gtWUdIeVtANzao",
+      "apiKey": ""
+    },
+    "gRecaptcha": {
+      "siteKey": "6Lff7Y0mAAAAALiv3IBkCCOfCdEsN-lK-jtR5FCm",
+      "secretKey": "6Lff7Y0mAAAAAGQr8dO3lqDJVhTi8Q-tpLLy2kGo"
+    }
+  },
+  "dashBoard": {
+    "enable": true,
+    "expireVerifyCode": 300000,
+    "port": 3001
+  },
+  "serverUptime": {
+    "enable": true,
+    "port": 3001,
+    "socket": {
+      "enable": true,
+      "channelName": "uptime",
+      "verifyToken": ""
+    }
+  },
+  "autoRestart": {
+    "time": false,
+    "notes": "Set time as interval in milliseconds or cron time, e.g., 1000 or '0 0 * * *'. Set to 0, false, or null to disable."
+  },
+  "autoUptime": {
+    "enable": false,
+    "timeInterval": 180,
+    "url": "",
+    "notes": "timeInterval is in seconds. Specify the URL for uptime checks."
+  },
+  "autoLoadScripts": {
+    "enable": false,
+    "ignoreCmds": [],
+    "ignoreEvents": [],
+    "notes": "Automatically reloads scripts on changes. Set ignoreCmds and ignoreEvents to skip specific commands/events."
+  },
+  "autoRefreshFbstate": true,
+  "autoReloginWhenChangeAccount": false,
+  "autoRestartWhenListenMqttError": false,
+  "restartListenMqtt": {
+    "enable": true,
+    "timeRestart": 3600000,
+    "delayAfterStopListening": 2000,
+    "logNoti": true,
+    "notes": "timeRestart and delayAfterStopListening values are in milliseconds."
+  },
+  "notiWhenListenMqttError": {
+    "notes": "Message sent when the bot has issues with MQTT server.",
+    "gmail": {
+      "enable": true,
+      "emailGetNoti": "aryanchauhan78577@gmail.com",
+      "note": "Notification sent to emailGetNoti."
+    },
+    "telegram": {
+      "enable": false,
+      "botToken": "",
+      "chatId": "",
+      "note": "Specify multiple chatIds separated by spaces."
+    },
+    "discordHook": {
+      "enable": false,
+      "webhookUrl": "https://discord.com/api/webhooks/1271212011069505557/",
+      "note": "Specify multiple webhook URLs separated by spaces."
+    }
+  },
+  "hideNotiMessage": {
+    "commandNotFound": false,
+    "adminOnly": false,
+    "threadBanned": false,
+    "userBanned": false,
+    "needRoleToUseCmd": false,
+    "needRoleToUseCmdOnReply": false,
+    "needRoleToUseCmdOnReaction": false
+  },
+  "logEvents": {
+    "disableAll": false,
+    "message": true,
+    "message_reaction": true,
+    "message_unsend": true,
+    "message_reply": true,
+    "event": true,
+    "read_receipt": false,
+    "typ": true,
+    "presence": true
+  },
+  "optionsFca": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "updatePresence": true,
+    "listenTyping": true,
+    "logLevel": "error",
+    "selfListen": true,
+    "selfListenEvent": false,
+    "autoMarkDelivery": true,
+    "autoReconnect": true,
+    "notes": "See documentation for usage."
+  },
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": [],
+    "notes": "If enabled, only threads in whiteListThreadIds can use the bot."
+  }
+    }
