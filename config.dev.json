@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "cedoelvalentino14@gmail.com",
-    "password": "ced1402",
+    "email": "rosius1402@gmail.com",
+    "password": "rosius1402@@",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -45,7 +45,7 @@
     ],
     "notes": "If enabled, only the IDs in whiteListIds can use the bot."
   },
-  "nickNameBot": "ᎠᎯᎬᎷᎾᏁ-ᏰᎾ",
+  "nickNameBot": "ᎠᎯᎬᎷᎾᏁ",
   "prefix": "@",
   "database": {
     "type": "mongodb",
